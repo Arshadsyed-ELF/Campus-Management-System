@@ -1,0 +1,68 @@
+/* components/GetClassroom.css
+.custom-list-item {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff;
+  }
+  
+  .custom-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .classroom-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .classroom-info p {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+  }
+   */
+
+  /* components/GetClassroom.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .grid-item {
+    border: 2px solid #046cf3;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 50 20px 40px rgb(237, 10, 200);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #09e6ee;
+  }
+  
+  .grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 10 4px 6px rgba(209, 24, 24, 0.92);
+
+  }
+  
+  .classroom-info h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .classroom-info p {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
